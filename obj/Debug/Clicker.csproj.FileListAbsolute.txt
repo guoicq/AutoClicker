@@ -1,0 +1,9 @@
+C:\Projects\Clicker\bin\Debug\Clicker.exe
+C:\Projects\Clicker\bin\Debug\Clicker.pdb
+C:\Projects\Clicker\obj\Debug\Clicker.csprojResolveAssemblyReference.cache
+C:\Projects\Clicker\obj\Debug\Clicker.EditWin.resources
+C:\Projects\Clicker\obj\Debug\Clicker.MainForm.resources
+C:\Projects\Clicker\obj\Debug\Clicker.Properties.Resources.resources
+C:\Projects\Clicker\obj\Debug\Clicker.csproj.GenerateResource.Cache
+C:\Projects\Clicker\obj\Debug\Clicker.exe
+C:\Projects\Clicker\obj\Debug\Clicker.pdb
