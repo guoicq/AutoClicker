@@ -77,8 +77,7 @@ namespace Clicker
                         ThreadPool.QueueUserWorkItem(new WaitCallback(WorkClick), action);
                     }
 
-                    int tmpIntervl = action.Interval.Equals(0) ? 0 : action.Interval * 1000 - 100;
-                    Thread.Sleep(tmpIntervl);
+                    Thread.Sleep(action.Interval);
                 }
                 if (!forever)
                     tmpAction.Repeat = tmpAction.Repeat - 1;
@@ -145,15 +144,15 @@ namespace Clicker
                 }
 
                 ClickType ct = ClickType.Click;
-                if (e.KeyChar.Equals('c'))
+                if (e.KeyChar == 'c' || e.KeyChar == 'C')
                 {
                     //cl = ClickType.click;
                 }
-                else if (e.KeyChar.Equals('d'))
+                else if (e.KeyChar == 'd' || e.KeyChar == 'D')
                 {
                     ct = ClickType.DoubleClick;
                 }
-                else if (e.KeyChar.Equals('r'))
+                else if (e.KeyChar == 'r' || e.KeyChar == 'R')
                 {
                     ct = ClickType.RightClick;
                 }
@@ -185,7 +184,7 @@ namespace Clicker
                 lvActions.Items.Add(lvi);
                 int index = lvActions.Items.Count;
             }
-            if (e.KeyChar.Equals('S'))
+            if (e.KeyChar == 's' || e.KeyChar == 'S')
             {
                 btnStart.PerformClick();
             }

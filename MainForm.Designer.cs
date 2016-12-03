@@ -65,7 +65,7 @@
             // 
             // nWait
             // 
-            this.nWait.Location = new System.Drawing.Point(65, 32);
+            this.nWait.Location = new System.Drawing.Point(121, 32);
             this.nWait.Maximum = new decimal(new int[] {
             600,
             0,
@@ -73,7 +73,7 @@
             0});
             this.nWait.Name = "nWait";
             this.nWait.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.nWait.Size = new System.Drawing.Size(108, 20);
+            this.nWait.Size = new System.Drawing.Size(52, 20);
             this.nWait.TabIndex = 0;
             this.nWait.Value = new decimal(new int[] {
             2,
@@ -301,9 +301,9 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.label8.Location = new System.Drawing.Point(4, 37);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(55, 13);
+            this.label8.Size = new System.Drawing.Size(74, 13);
             this.label8.TabIndex = 50;
-            this.label8.Text = "Wait (sec)";
+            this.label8.Text = "Wait (milli sec)";
             // 
             // label9
             // 
