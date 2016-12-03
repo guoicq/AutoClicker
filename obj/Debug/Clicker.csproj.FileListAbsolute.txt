@@ -1,0 +1,9 @@
+E:\Documents\GitHub\AutoClicker\bin\Debug\Clicker.exe
+E:\Documents\GitHub\AutoClicker\bin\Debug\Clicker.pdb
+E:\Documents\GitHub\AutoClicker\obj\Debug\Clicker.csprojResolveAssemblyReference.cache
+E:\Documents\GitHub\AutoClicker\obj\Debug\Clicker.EditWin.resources
+E:\Documents\GitHub\AutoClicker\obj\Debug\Clicker.MainForm.resources
+E:\Documents\GitHub\AutoClicker\obj\Debug\Clicker.Properties.Resources.resources
+E:\Documents\GitHub\AutoClicker\obj\Debug\Clicker.csproj.GenerateResource.Cache
+E:\Documents\GitHub\AutoClicker\obj\Debug\Clicker.exe
+E:\Documents\GitHub\AutoClicker\obj\Debug\Clicker.pdb
