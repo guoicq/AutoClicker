@@ -61,10 +61,11 @@ namespace Clicker
         private void RunAction(object actionObj)
         {
             ActionsEntry tmpAction = actionObj as ActionsEntry;
+            int repeatCount = tmpAction.Repeat;
             bool forever = false;
-            if (tmpAction.Repeat < 1)
+            if (repeatCount == 0)
                 forever = true;
-            while (forever || tmpAction.Repeat > 0)
+            while (forever || repeatCount > 0)
             {
                 foreach (ActionEntry action in tmpAction.Action)
                 {
@@ -80,7 +81,7 @@ namespace Clicker
                     Thread.Sleep(action.Interval);
                 }
                 if (!forever)
-                    tmpAction.Repeat = tmpAction.Repeat - 1;
+                    repeatCount--;
             }
             ThreadPool.QueueUserWorkItem(new WaitCallback(WorkEnableButtons), null);
         }

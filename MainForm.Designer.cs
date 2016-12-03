@@ -67,7 +67,12 @@
             // 
             this.nWait.Location = new System.Drawing.Point(121, 32);
             this.nWait.Maximum = new decimal(new int[] {
-            600,
+            276447231,
+            23283,
+            0,
+            0});
+            this.nWait.Minimum = new decimal(new int[] {
+            100,
             0,
             0,
             0});
@@ -76,7 +81,7 @@
             this.nWait.Size = new System.Drawing.Size(52, 20);
             this.nWait.TabIndex = 0;
             this.nWait.Value = new decimal(new int[] {
-            2,
+            100,
             0,
             0,
             0});

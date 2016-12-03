@@ -135,9 +135,9 @@
             // 
             this.cbType.FormattingEnabled = true;
             this.cbType.Items.AddRange(new object[] {
-            "click",
-            "rightClick",
-            "doubleClick",
+            "Click",
+            "RightClick",
+            "DoubleClick",
             "SendKeys"});
             this.cbType.Location = new System.Drawing.Point(89, 113);
             this.cbType.Name = "cbType";
@@ -149,7 +149,12 @@
             // 
             this.nWait.Location = new System.Drawing.Point(88, 87);
             this.nWait.Maximum = new decimal(new int[] {
-            60,
+            1316134911,
+            2328,
+            0,
+            0});
+            this.nWait.Minimum = new decimal(new int[] {
+            100,
             0,
             0,
             0});
@@ -158,7 +163,7 @@
             this.nWait.Size = new System.Drawing.Size(98, 20);
             this.nWait.TabIndex = 12;
             this.nWait.Value = new decimal(new int[] {
-            2,
+            100,
             0,
             0,
             0});
