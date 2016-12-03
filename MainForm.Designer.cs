@@ -391,7 +391,7 @@
             this.KeyPreview = true;
             this.MinimumSize = new System.Drawing.Size(593, 352);
             this.Name = "MainForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Auto Clicker";
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
