@@ -223,12 +223,11 @@
             // columnHeader2
             // 
             this.columnHeader2.Text = "Action";
-            this.columnHeader2.Width = 96;
+            this.columnHeader2.Width = 76;
             // 
             // columnHeader3
             // 
             this.columnHeader3.Text = "Wait";
-            this.columnHeader3.Width = 39;
             // 
             // columnHeader4
             // 
