@@ -67,7 +67,7 @@
             // 
             this.nWait.Location = new System.Drawing.Point(65, 32);
             this.nWait.Maximum = new decimal(new int[] {
-            60,
+            600,
             0,
             0,
             0});
@@ -332,8 +332,8 @@
             // 
             this.numUpDownRepeat.Location = new System.Drawing.Point(121, 254);
             this.numUpDownRepeat.Maximum = new decimal(new int[] {
-            60,
-            0,
+            -727379969,
+            232,
             0,
             0});
             this.numUpDownRepeat.Name = "numUpDownRepeat";
