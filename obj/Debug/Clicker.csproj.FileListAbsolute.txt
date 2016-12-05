@@ -7,3 +7,4 @@ E:\Documents\GitHub\AutoClicker\obj\Debug\Clicker.Properties.Resources.resources
 E:\Documents\GitHub\AutoClicker\obj\Debug\Clicker.csproj.GenerateResource.Cache
 E:\Documents\GitHub\AutoClicker\obj\Debug\Clicker.exe
 E:\Documents\GitHub\AutoClicker\obj\Debug\Clicker.pdb
+E:\Documents\GitHub\AutoClicker\bin\Debug\Clicker.exe.config
