@@ -159,7 +159,6 @@
             0,
             0});
             this.nWait.Name = "nWait";
-            this.nWait.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.nWait.Size = new System.Drawing.Size(98, 20);
             this.nWait.TabIndex = 12;
             this.nWait.Value = new decimal(new int[] {

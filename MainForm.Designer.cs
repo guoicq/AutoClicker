@@ -341,7 +341,6 @@
             0,
             0});
             this.numUpDownRepeat.Name = "numUpDownRepeat";
-            this.numUpDownRepeat.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.numUpDownRepeat.Size = new System.Drawing.Size(52, 20);
             this.numUpDownRepeat.TabIndex = 53;
             this.numUpDownRepeat.Value = new decimal(new int[] {
